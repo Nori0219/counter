@@ -42,8 +42,8 @@ class ViewController: UIViewController {
     
     @IBAction func reset(){
         numberA = 0
-        pointLabelA.text = String(numberA)
         numberB = 0
+        pointLabelA.text = String(numberA)
         pointLabelB.text = String(numberB)
         gameLabel.text = "勝負の行方は！？"
     }
